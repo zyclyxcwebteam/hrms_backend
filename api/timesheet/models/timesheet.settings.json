@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "timesheets",
+  "info": {
+    "name": "Team Tasks"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "Task": {
+      "type": "text"
+    },
+    "Priority": {
+      "type": "enumeration",
+      "enum": [
+        "high",
+        "low",
+        "medium"
+      ]
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "WIP",
+        "Done",
+        "Review",
+        "Stuck"
+      ]
+    },
+    "Due_Date": {
+      "type": "date"
+    },
+    "Time_Est": {
+      "type": "decimal"
+    },
+    "Project": {
+      "type": "enumeration",
+      "enum": [
+        "OCR",
+        "RPA",
+        "HRMS",
+        "Websites"
+      ]
+    },
+    "Remarks": {
+      "type": "richtext"
+    },
+    "Owner": {
+      "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "team_task"
+    }
+  }
+}
