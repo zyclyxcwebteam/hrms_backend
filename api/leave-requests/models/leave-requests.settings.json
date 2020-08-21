@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leave_requests",
+  "info": {
+    "name": "Leave Requests"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Applied_Date": {
+      "type": "date"
+    },
+    "From_Date": {
+      "type": "date"
+    },
+    "To_Date": {
+      "type": "date"
+    },
+    "Message": {
+      "type": "text"
+    },
+    "Leave_Type": {
+      "type": "enumeration",
+      "enum": [
+        "Sick",
+        "Casual",
+        "Optional",
+        "Unpaid",
+        "Emergency",
+        "Other"
+      ]
+    },
+    "Approval": {
+      "type": "enumeration",
+      "enum": [
+        "Pending",
+        "Approved",
+        "Rejected"
+      ],
+      "default": "Pending"
+    },
+    "Employee_Name": {
+      "type": "string"
+    }
+  }
+}

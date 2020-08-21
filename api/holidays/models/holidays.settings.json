@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "holidays",
+  "info": {
+    "name": "Holidays"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Ocation": {
+      "type": "text"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Holiday_Type": {
+      "type": "enumeration",
+      "enum": [
+        "Mandatory",
+        "Optional"
+      ]
+    }
+  }
+}

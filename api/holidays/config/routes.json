@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/holidays",
+      "handler": "holidays.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/holidays/count",
+      "handler": "holidays.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/holidays/:id",
+      "handler": "holidays.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/holidays",
+      "handler": "holidays.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/holidays/:id",
+      "handler": "holidays.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/holidays/:id",
+      "handler": "holidays.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
