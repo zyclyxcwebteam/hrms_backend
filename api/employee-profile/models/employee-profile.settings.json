@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_profiles",
+  "info": {
+    "name": "Employee Profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Emp_Name": {
+      "type": "string"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "Emp_ID": {
+      "type": "string"
+    },
+    "DOJ": {
+      "type": "date"
+    },
+    "DOB": {
+      "type": "date"
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "Work_Email": {
+      "type": "email"
+    },
+    "Personal_Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "richtext"
+    },
+    "Bank_Accounts": {
+      "type": "richtext"
+    },
+    "Emergency_Contact": {
+      "type": "richtext"
+    }
+  }
+}

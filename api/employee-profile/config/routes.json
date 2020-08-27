@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/employee-profiles",
+      "handler": "employee-profile.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employee-profiles/count",
+      "handler": "employee-profile.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employee-profiles/:id",
+      "handler": "employee-profile.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/employee-profiles",
+      "handler": "employee-profile.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/employee-profiles/:id",
+      "handler": "employee-profile.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/employee-profiles/:id",
+      "handler": "employee-profile.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
