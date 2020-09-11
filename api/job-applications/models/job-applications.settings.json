@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_applications",
+  "info": {
+    "name": "Job Applications"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Date": {
+      "type": "date"
+    },
+    "Firstname": {
+      "type": "string"
+    },
+    "Lastname": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Country_Code": {
+      "type": "string"
+    },
+    "Resume": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Message": {
+      "type": "text"
+    },
+    "Website": {
+      "type": "enumeration",
+      "enum": [
+        "zyclyx",
+        "virtech",
+        "intellect"
+      ]
+    },
+    "Position": {
+      "type": "string"
+    }
+  }
+}
