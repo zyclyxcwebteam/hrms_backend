@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_openings",
+  "info": {
+    "name": "Job Openings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "open",
+        "closed"
+      ]
+    },
+    "Requirements": {
+      "type": "richtext"
+    },
+    "Responsibilities": {
+      "type": "richtext"
+    },
+    "Experience": {
+      "type": "string"
+    }
+  }
+}
