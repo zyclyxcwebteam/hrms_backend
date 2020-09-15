@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_enquiries",
+  "info": {
+    "name": "Business Enquiries"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Full_Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Website": {
+      "type": "enumeration",
+      "enum": [
+        "zyclyx",
+        "intellect",
+        "virtech"
+      ]
+    }
+  }
+}

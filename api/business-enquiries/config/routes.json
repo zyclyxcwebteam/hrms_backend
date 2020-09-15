@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/business-enquiries",
+      "handler": "business-enquiries.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/business-enquiries/count",
+      "handler": "business-enquiries.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/business-enquiries/:id",
+      "handler": "business-enquiries.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/business-enquiries",
+      "handler": "business-enquiries.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/business-enquiries/:id",
+      "handler": "business-enquiries.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/business-enquiries/:id",
+      "handler": "business-enquiries.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
