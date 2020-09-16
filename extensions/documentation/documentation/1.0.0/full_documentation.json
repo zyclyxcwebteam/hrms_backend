@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/15/2020 4:33:45 PM"
+    "x-generation-date": "09/16/2020 9:23:49 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6475,9 +6475,9 @@
           "Website": {
             "type": "string",
             "enum": [
-              "zyclyx",
-              "intellect",
-              "virtech"
+              "ZYCLYX",
+              "INTELLECT",
+              "VIRTECH"
             ]
           },
           "created_by": {
@@ -6590,9 +6590,9 @@
           "Website": {
             "type": "string",
             "enum": [
-              "zyclyx",
-              "intellect",
-              "virtech"
+              "ZYCLYX",
+              "INTELLECT",
+              "VIRTECH"
             ]
           },
           "created_by": {

@@ -553,9 +553,9 @@
           "Website": {
             "type": "string",
             "enum": [
-              "zyclyx",
-              "intellect",
-              "virtech"
+              "ZYCLYX",
+              "INTELLECT",
+              "VIRTECH"
             ]
           },
           "created_by": {
@@ -668,9 +668,9 @@
           "Website": {
             "type": "string",
             "enum": [
-              "zyclyx",
-              "intellect",
-              "virtech"
+              "ZYCLYX",
+              "INTELLECT",
+              "VIRTECH"
             ]
           },
           "created_by": {

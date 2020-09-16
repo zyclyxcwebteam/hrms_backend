@@ -27,9 +27,9 @@
     "Website": {
       "type": "enumeration",
       "enum": [
-        "zyclyx",
-        "intellect",
-        "virtech"
+        "ZYCLYX",
+        "INTELLECT",
+        "VIRTECH"
       ]
     }
   }
