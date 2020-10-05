@@ -1251,7 +1251,44 @@
               }
             }
           },
-          "team_task": {
+          "payslips": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "Month": {
+                  "type": "string"
+                },
+                "Payslip": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "user": {
+                  "type": "string"
+                },
+                "Year": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "leave_balance": {
             "required": [
               "id"
             ],
@@ -1259,31 +1296,34 @@
               "id": {
                 "type": "string"
               },
-              "Date": {
+              "Casual_Leaves": {
                 "type": "string"
               },
-              "Task": {
+              "Special_Leaves": {
                 "type": "string"
               },
-              "Priority": {
+              "Sick_Leaves": {
                 "type": "string"
               },
-              "Status": {
+              "Bereavement_Leave": {
                 "type": "string"
               },
-              "Due_Date": {
+              "Total_Leaves_Utilized": {
                 "type": "string"
               },
-              "Time_Est": {
-                "type": "number"
-              },
-              "Project": {
+              "Leave_Balance": {
                 "type": "string"
               },
-              "Remarks": {
+              "CL_Utilized": {
                 "type": "string"
               },
-              "Owner": {
+              "SL_Utilized": {
+                "type": "string"
+              },
+              "LOP": {
+                "type": "string"
+              },
+              "Employee_Name": {
                 "type": "string"
               },
               "user": {
@@ -1422,7 +1462,13 @@
           "role": {
             "type": "string"
           },
-          "team_task": {
+          "payslips": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "leave_balance": {
             "type": "string"
           },
           "created_by": {

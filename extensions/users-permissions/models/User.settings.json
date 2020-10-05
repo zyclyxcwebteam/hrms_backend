@@ -53,9 +53,13 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "team_task": {
+    "payslips": {
       "via": "user",
-      "model": "timesheet"
+      "collection": "payslips"
+    },
+    "leave_balance": {
+      "via": "user",
+      "model": "leave-balance"
     }
   }
 }

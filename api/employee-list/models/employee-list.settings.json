@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_lists",
+  "info": {
+    "name": "Employee_List"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Employee_Name": {
+      "type": "string"
+    },
+    "Employee_ID": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payslips",
+  "info": {
+    "name": "Payslips"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Employee_Name": {
+      "type": "string"
+    },
+    "Month": {
+      "type": "enumeration",
+      "enum": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sept",
+        "Oct",
+        "Nov",
+        "Dec"
+      ]
+    },
+    "Payslip": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "payslips"
+    },
+    "Year": {
+      "type": "string"
+    }
+  }
+}

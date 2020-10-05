@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/leave-balances",
+      "handler": "leave-balance.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leave-balances/count",
+      "handler": "leave-balance.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leave-balances/:id",
+      "handler": "leave-balance.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/leave-balances",
+      "handler": "leave-balance.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/leave-balances/:id",
+      "handler": "leave-balance.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/leave-balances/:id",
+      "handler": "leave-balance.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

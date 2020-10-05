@@ -52,11 +52,6 @@
     },
     "Owner": {
       "type": "string"
-    },
-    "user": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "team_task"
     }
   }
 }
