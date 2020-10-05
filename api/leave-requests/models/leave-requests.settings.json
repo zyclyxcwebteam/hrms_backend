@@ -26,10 +26,8 @@
       "enum": [
         "Sick",
         "Casual",
-        "Optional",
-        "Unpaid",
-        "Emergency",
-        "Other"
+        "Special",
+        "Bereavement"
       ]
     },
     "Approval": {

@@ -552,10 +552,8 @@
             "enum": [
               "Sick",
               "Casual",
-              "Optional",
-              "Unpaid",
-              "Emergency",
-              "Other"
+              "Special",
+              "Bereavement"
             ]
           },
           "Approval": {
@@ -679,10 +677,8 @@
             "enum": [
               "Sick",
               "Casual",
-              "Optional",
-              "Unpaid",
-              "Emergency",
-              "Other"
+              "Special",
+              "Bereavement"
             ]
           },
           "Approval": {
