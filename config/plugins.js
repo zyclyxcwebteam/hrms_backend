@@ -8,13 +8,30 @@ module.exports = ({ env }) => ({
     },
   },
   email: {
-    provider: "sendgrid",
+    provider: "smtp",
     providerOptions: {
-      apiKey: env("SENDGRID_KEY"),
+      host: "smtp.gmail.com", //SMTP Host
+      port: 465, //SMTP Port
+      secure: true,
+      username: "skanjarla@zyclyx.com",
+      password: "dnxusjsfnorgvymw",
+      rejectUnauthorized: true,
+      requireTLS: true,
+      connectionTimeout: 1,
     },
     settings: {
-      defaultFrom: "skanjarla@zyclyx.com",
-      defaultReplyTo: "skanjarla@zyclyx.com",
+      from: "skanjarla@zyclyx.com",
+      replyTo: "hr.operations@zyclyx.com",
     },
   },
+  // email: {
+  //   provider: "sendgrid",
+  //   providerOptions: {
+  //     apiKey: env("SENDGRID_KEY"),
+  //   },
+  //   settings: {
+  //     defaultFrom: "skanjarla@zyclyx.com",
+  //     defaultReplyTo: "skanjarla@zyclyx.com",
+  //   },
+  // },
 });
