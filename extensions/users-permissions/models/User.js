@@ -7,9 +7,12 @@ module.exports = {
   lifecycles: {
     async beforeCreate(data) {
       axios
-        .post(`http://localhost:1337/auth/send-email-confirmation`, {
-          email: `${data.email}`,
-        })
+        .post(
+          `https://admin-zyclyx.herokuapp.com/auth/send-email-confirmation`,
+          {
+            email: `${data.email}`,
+          }
+        )
         .then((response) => {
           console.log("Your user received an email");
         })
