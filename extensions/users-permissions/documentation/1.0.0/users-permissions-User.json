@@ -1251,43 +1251,6 @@
               }
             }
           },
-          "payslips": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "Employee_Name": {
-                  "type": "string"
-                },
-                "Month": {
-                  "type": "string"
-                },
-                "Payslip": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "user": {
-                  "type": "string"
-                },
-                "Year": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
           "leave_balance": {
             "required": [
               "id"
@@ -1334,6 +1297,46 @@
               },
               "updated_by": {
                 "type": "string"
+              }
+            }
+          },
+          "payslips": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "Month",
+                "Payslip",
+                "Year"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "Month": {
+                  "type": "string"
+                },
+                "Payslip": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "user": {
+                  "type": "string"
+                },
+                "Year": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1462,14 +1465,14 @@
           "role": {
             "type": "string"
           },
+          "leave_balance": {
+            "type": "string"
+          },
           "payslips": {
             "type": "array",
             "items": {
               "type": "string"
             }
-          },
-          "leave_balance": {
-            "type": "string"
           },
           "created_by": {
             "type": "string"

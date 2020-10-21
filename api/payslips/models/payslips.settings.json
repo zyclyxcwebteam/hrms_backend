@@ -27,18 +27,17 @@
         "Oct",
         "Nov",
         "Dec"
-      ]
+      ],
+      "required": true
     },
     "Payslip": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "files"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "user": {
       "plugin": "users-permissions",
@@ -46,7 +45,9 @@
       "via": "payslips"
     },
     "Year": {
-      "type": "string"
+      "type": "string",
+      "default": "2020",
+      "required": true
     }
   }
 }

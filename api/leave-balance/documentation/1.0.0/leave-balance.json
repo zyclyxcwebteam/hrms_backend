@@ -599,14 +599,14 @@
               "role": {
                 "type": "string"
               },
+              "leave_balance": {
+                "type": "string"
+              },
               "payslips": {
                 "type": "array",
                 "items": {
                   "type": "string"
                 }
-              },
-              "leave_balance": {
-                "type": "string"
               },
               "created_by": {
                 "type": "string"

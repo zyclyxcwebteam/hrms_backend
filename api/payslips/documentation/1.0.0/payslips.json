@@ -516,7 +516,10 @@
     "schemas": {
       "Payslips": {
         "required": [
-          "id"
+          "id",
+          "Month",
+          "Payslip",
+          "Year"
         ],
         "properties": {
           "id": {
@@ -646,14 +649,14 @@
               "role": {
                 "type": "string"
               },
+              "leave_balance": {
+                "type": "string"
+              },
               "payslips": {
                 "type": "array",
                 "items": {
                   "type": "string"
                 }
-              },
-              "leave_balance": {
-                "type": "string"
               },
               "created_by": {
                 "type": "string"
@@ -664,7 +667,8 @@
             }
           },
           "Year": {
-            "type": "string"
+            "type": "string",
+            "default": "2020"
           },
           "created_by": {
             "required": [
@@ -757,6 +761,10 @@
         }
       },
       "NewPayslips": {
+        "required": [
+          "Month",
+          "Year"
+        ],
         "properties": {
           "Employee_Name": {
             "type": "string"
@@ -782,7 +790,8 @@
             "type": "string"
           },
           "Year": {
-            "type": "string"
+            "type": "string",
+            "default": "2020"
           },
           "created_by": {
             "type": "string"

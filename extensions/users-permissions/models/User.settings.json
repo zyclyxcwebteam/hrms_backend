@@ -53,13 +53,13 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "payslips": {
-      "via": "user",
-      "collection": "payslips"
-    },
     "leave_balance": {
       "via": "user",
       "model": "leave-balance"
+    },
+    "payslips": {
+      "via": "user",
+      "collection": "payslips"
     }
   }
 }

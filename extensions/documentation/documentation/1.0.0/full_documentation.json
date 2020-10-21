@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/20/2020 7:02:23 PM"
+    "x-generation-date": "10/21/2020 3:24:24 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -95,7 +95,9 @@
           }
         },
         "summary": "",
-        "tags": ["Attendance"],
+        "tags": [
+          "Attendance"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -281,7 +283,9 @@
           }
         },
         "summary": "",
-        "tags": ["Attendance"],
+        "tags": [
+          "Attendance"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -346,7 +350,9 @@
           }
         },
         "summary": "",
-        "tags": ["Attendance"],
+        "tags": [
+          "Attendance"
+        ],
         "parameters": []
       }
     },
@@ -397,7 +403,9 @@
           }
         },
         "summary": "",
-        "tags": ["Attendance"],
+        "tags": [
+          "Attendance"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -457,7 +465,9 @@
           }
         },
         "summary": "",
-        "tags": ["Attendance"],
+        "tags": [
+          "Attendance"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -529,7 +539,9 @@
           }
         },
         "summary": "",
-        "tags": ["Attendance"],
+        "tags": [
+          "Attendance"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -595,7 +607,9 @@
           }
         },
         "summary": "",
-        "tags": ["Business-enquiries"],
+        "tags": [
+          "Business-enquiries"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -785,7 +799,9 @@
           }
         },
         "summary": "",
-        "tags": ["Business-enquiries"],
+        "tags": [
+          "Business-enquiries"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -850,7 +866,9 @@
           }
         },
         "summary": "",
-        "tags": ["Business-enquiries"],
+        "tags": [
+          "Business-enquiries"
+        ],
         "parameters": []
       }
     },
@@ -905,7 +923,9 @@
           }
         },
         "summary": "",
-        "tags": ["Business-enquiries"],
+        "tags": [
+          "Business-enquiries"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -969,7 +989,9 @@
           }
         },
         "summary": "",
-        "tags": ["Business-enquiries"],
+        "tags": [
+          "Business-enquiries"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1041,7 +1063,9 @@
           }
         },
         "summary": "",
-        "tags": ["Business-enquiries"],
+        "tags": [
+          "Business-enquiries"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1107,7 +1131,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-list"],
+        "tags": [
+          "Employee-list"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -1297,7 +1323,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-list"],
+        "tags": [
+          "Employee-list"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1362,7 +1390,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-list"],
+        "tags": [
+          "Employee-list"
+        ],
         "parameters": []
       }
     },
@@ -1417,7 +1447,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-list"],
+        "tags": [
+          "Employee-list"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1481,7 +1513,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-list"],
+        "tags": [
+          "Employee-list"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1553,7 +1587,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-list"],
+        "tags": [
+          "Employee-list"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1619,7 +1655,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-profile"],
+        "tags": [
+          "Employee-profile"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -1809,7 +1847,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-profile"],
+        "tags": [
+          "Employee-profile"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -1874,7 +1914,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-profile"],
+        "tags": [
+          "Employee-profile"
+        ],
         "parameters": []
       }
     },
@@ -1929,7 +1971,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-profile"],
+        "tags": [
+          "Employee-profile"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -1993,7 +2037,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-profile"],
+        "tags": [
+          "Employee-profile"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2065,7 +2111,9 @@
           }
         },
         "summary": "",
-        "tags": ["Employee-profile"],
+        "tags": [
+          "Employee-profile"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2130,7 +2178,9 @@
           }
         },
         "summary": "",
-        "tags": ["Holidays"],
+        "tags": [
+          "Holidays"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -2316,7 +2366,9 @@
           }
         },
         "summary": "",
-        "tags": ["Holidays"],
+        "tags": [
+          "Holidays"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2381,7 +2433,9 @@
           }
         },
         "summary": "",
-        "tags": ["Holidays"],
+        "tags": [
+          "Holidays"
+        ],
         "parameters": []
       }
     },
@@ -2432,7 +2486,9 @@
           }
         },
         "summary": "",
-        "tags": ["Holidays"],
+        "tags": [
+          "Holidays"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2492,7 +2548,9 @@
           }
         },
         "summary": "",
-        "tags": ["Holidays"],
+        "tags": [
+          "Holidays"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2564,7 +2622,9 @@
           }
         },
         "summary": "",
-        "tags": ["Holidays"],
+        "tags": [
+          "Holidays"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -2630,7 +2690,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-applications"],
+        "tags": [
+          "Job-applications"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -2820,7 +2882,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-applications"],
+        "tags": [
+          "Job-applications"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -2885,7 +2949,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-applications"],
+        "tags": [
+          "Job-applications"
+        ],
         "parameters": []
       }
     },
@@ -2940,7 +3006,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-applications"],
+        "tags": [
+          "Job-applications"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3004,7 +3072,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-applications"],
+        "tags": [
+          "Job-applications"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3076,7 +3146,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-applications"],
+        "tags": [
+          "Job-applications"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3142,7 +3214,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-openings"],
+        "tags": [
+          "Job-openings"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -3332,7 +3406,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-openings"],
+        "tags": [
+          "Job-openings"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3397,7 +3473,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-openings"],
+        "tags": [
+          "Job-openings"
+        ],
         "parameters": []
       }
     },
@@ -3452,7 +3530,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-openings"],
+        "tags": [
+          "Job-openings"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3516,7 +3596,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-openings"],
+        "tags": [
+          "Job-openings"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3588,7 +3670,9 @@
           }
         },
         "summary": "",
-        "tags": ["Job-openings"],
+        "tags": [
+          "Job-openings"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -3654,7 +3738,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-balance"],
+        "tags": [
+          "Leave-balance"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -3844,7 +3930,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-balance"],
+        "tags": [
+          "Leave-balance"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -3909,7 +3997,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-balance"],
+        "tags": [
+          "Leave-balance"
+        ],
         "parameters": []
       }
     },
@@ -3964,7 +4054,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-balance"],
+        "tags": [
+          "Leave-balance"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -4028,7 +4120,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-balance"],
+        "tags": [
+          "Leave-balance"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4100,7 +4194,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-balance"],
+        "tags": [
+          "Leave-balance"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -4166,7 +4262,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-requests"],
+        "tags": [
+          "Leave-requests"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -4356,7 +4454,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-requests"],
+        "tags": [
+          "Leave-requests"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4421,7 +4521,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-requests"],
+        "tags": [
+          "Leave-requests"
+        ],
         "parameters": []
       }
     },
@@ -4476,7 +4578,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-requests"],
+        "tags": [
+          "Leave-requests"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -4540,7 +4644,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-requests"],
+        "tags": [
+          "Leave-requests"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4612,7 +4718,9 @@
           }
         },
         "summary": "",
-        "tags": ["Leave-requests"],
+        "tags": [
+          "Leave-requests"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -4677,7 +4785,9 @@
           }
         },
         "summary": "",
-        "tags": ["Payslips"],
+        "tags": [
+          "Payslips"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -4863,7 +4973,9 @@
           }
         },
         "summary": "",
-        "tags": ["Payslips"],
+        "tags": [
+          "Payslips"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -4928,7 +5040,9 @@
           }
         },
         "summary": "",
-        "tags": ["Payslips"],
+        "tags": [
+          "Payslips"
+        ],
         "parameters": []
       }
     },
@@ -4979,7 +5093,9 @@
           }
         },
         "summary": "",
-        "tags": ["Payslips"],
+        "tags": [
+          "Payslips"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -5039,7 +5155,9 @@
           }
         },
         "summary": "",
-        "tags": ["Payslips"],
+        "tags": [
+          "Payslips"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5111,7 +5229,9 @@
           }
         },
         "summary": "",
-        "tags": ["Payslips"],
+        "tags": [
+          "Payslips"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -5176,7 +5296,9 @@
           }
         },
         "summary": "",
-        "tags": ["Timesheet"],
+        "tags": [
+          "Timesheet"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -5362,7 +5484,9 @@
           }
         },
         "summary": "",
-        "tags": ["Timesheet"],
+        "tags": [
+          "Timesheet"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5427,7 +5551,9 @@
           }
         },
         "summary": "",
-        "tags": ["Timesheet"],
+        "tags": [
+          "Timesheet"
+        ],
         "parameters": []
       }
     },
@@ -5478,7 +5604,9 @@
           }
         },
         "summary": "",
-        "tags": ["Timesheet"],
+        "tags": [
+          "Timesheet"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -5538,7 +5666,9 @@
           }
         },
         "summary": "",
-        "tags": ["Timesheet"],
+        "tags": [
+          "Timesheet"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5610,7 +5740,9 @@
           }
         },
         "summary": "",
-        "tags": ["Timesheet"],
+        "tags": [
+          "Timesheet"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -5676,7 +5808,9 @@
           }
         },
         "summary": "",
-        "tags": ["Email - Email"],
+        "tags": [
+          "Email - Email"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5745,7 +5879,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -5814,7 +5950,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": []
       }
     },
@@ -5869,7 +6007,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": []
       }
     },
@@ -5924,7 +6064,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -5988,7 +6130,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -6054,7 +6198,9 @@
           }
         },
         "summary": "",
-        "tags": ["Upload - File"],
+        "tags": [
+          "Upload - File"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -6116,7 +6262,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -6181,7 +6329,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -6367,7 +6517,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6428,7 +6580,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "parameters": [
           {
             "name": "role",
@@ -6503,7 +6657,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - Role"],
+        "tags": [
+          "UsersPermissions - Role"
+        ],
         "parameters": [
           {
             "name": "role",
@@ -6568,7 +6724,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -6770,7 +6928,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": []
       }
     },
@@ -6825,7 +6985,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6890,7 +7052,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -6955,7 +7119,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "provider",
@@ -7021,7 +7187,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7090,7 +7258,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7159,7 +7329,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": []
       }
     },
@@ -7214,7 +7386,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -7282,7 +7456,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -7470,7 +7646,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": []
       }
     },
@@ -7521,7 +7699,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -7581,7 +7761,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -7656,7 +7838,9 @@
           }
         },
         "summary": "",
-        "tags": ["UsersPermissions - User"],
+        "tags": [
+          "UsersPermissions - User"
+        ],
         "parameters": [
           {
             "name": "id",
@@ -7675,7 +7859,9 @@
   "components": {
     "schemas": {
       "Attendance": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -7702,7 +7888,10 @@
             "type": "integer"
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -7743,7 +7932,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -7817,7 +8009,9 @@
         }
       },
       "Business-enquiries": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -7839,10 +8033,17 @@
           },
           "Website": {
             "type": "string",
-            "enum": ["ZYCLYX", "INTELLECT", "VIRTECH"]
+            "enum": [
+              "ZYCLYX",
+              "INTELLECT",
+              "VIRTECH"
+            ]
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -7883,7 +8084,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -7944,7 +8148,11 @@
           },
           "Website": {
             "type": "string",
-            "enum": ["ZYCLYX", "INTELLECT", "VIRTECH"]
+            "enum": [
+              "ZYCLYX",
+              "INTELLECT",
+              "VIRTECH"
+            ]
           },
           "created_by": {
             "type": "string"
@@ -7955,7 +8163,9 @@
         }
       },
       "Employee-list": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -8037,7 +8247,10 @@
             }
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8078,7 +8291,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8137,7 +8353,9 @@
         }
       },
       "Employee-profile": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -8159,7 +8377,10 @@
           },
           "Gender": {
             "type": "string",
-            "enum": ["Male", "Female"]
+            "enum": [
+              "Male",
+              "Female"
+            ]
           },
           "Work_Email": {
             "type": "string"
@@ -8180,7 +8401,10 @@
             "type": "string"
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8221,7 +8445,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8282,7 +8509,10 @@
           },
           "Gender": {
             "type": "string",
-            "enum": ["Male", "Female"]
+            "enum": [
+              "Male",
+              "Female"
+            ]
           },
           "Work_Email": {
             "type": "string"
@@ -8311,7 +8541,9 @@
         }
       },
       "Holidays": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -8324,10 +8556,16 @@
           },
           "Holiday_Type": {
             "type": "string",
-            "enum": ["Mandatory", "Optional"]
+            "enum": [
+              "Mandatory",
+              "Optional"
+            ]
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8368,7 +8606,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8420,7 +8661,10 @@
           },
           "Holiday_Type": {
             "type": "string",
-            "enum": ["Mandatory", "Optional"]
+            "enum": [
+              "Mandatory",
+              "Optional"
+            ]
           },
           "created_by": {
             "type": "string"
@@ -8431,7 +8675,9 @@
         }
       },
       "Job-applications": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -8529,13 +8775,20 @@
           },
           "Website": {
             "type": "string",
-            "enum": ["zyclyx", "virtech", "intellect"]
+            "enum": [
+              "zyclyx",
+              "virtech",
+              "intellect"
+            ]
           },
           "Position": {
             "type": "string"
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8576,7 +8829,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8643,7 +8899,11 @@
           },
           "Website": {
             "type": "string",
-            "enum": ["zyclyx", "virtech", "intellect"]
+            "enum": [
+              "zyclyx",
+              "virtech",
+              "intellect"
+            ]
           },
           "Position": {
             "type": "string"
@@ -8657,7 +8917,9 @@
         }
       },
       "Job-openings": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -8673,7 +8935,10 @@
           },
           "Status": {
             "type": "string",
-            "enum": ["open", "closed"]
+            "enum": [
+              "open",
+              "closed"
+            ]
           },
           "Requirements": {
             "type": "string"
@@ -8685,7 +8950,10 @@
             "type": "string"
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8726,7 +8994,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8781,7 +9052,10 @@
           },
           "Status": {
             "type": "string",
-            "enum": ["open", "closed"]
+            "enum": [
+              "open",
+              "closed"
+            ]
           },
           "Requirements": {
             "type": "string"
@@ -8801,7 +9075,9 @@
         }
       },
       "Leave-balance": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -8837,7 +9113,11 @@
             "type": "string"
           },
           "user": {
-            "required": ["id", "username", "email"],
+            "required": [
+              "id",
+              "username",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8866,14 +9146,14 @@
               "role": {
                 "type": "string"
               },
+              "leave_balance": {
+                "type": "string"
+              },
               "payslips": {
                 "type": "array",
                 "items": {
                   "type": "string"
                 }
-              },
-              "leave_balance": {
-                "type": "string"
               },
               "created_by": {
                 "type": "string"
@@ -8884,7 +9164,10 @@
             }
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -8925,7 +9208,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9011,7 +9297,9 @@
         }
       },
       "Leave-requests": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -9030,18 +9318,30 @@
           },
           "Leave_Type": {
             "type": "string",
-            "enum": ["Sick", "Casual", "Special", "Bereavement"]
+            "enum": [
+              "Sick",
+              "Casual",
+              "Special",
+              "Bereavement"
+            ]
           },
           "Approval": {
             "type": "string",
             "default": "Pending",
-            "enum": ["Pending", "Approved", "Rejected"]
+            "enum": [
+              "Pending",
+              "Approved",
+              "Rejected"
+            ]
           },
           "Employee_Name": {
             "type": "string"
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9082,7 +9382,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9140,12 +9443,21 @@
           },
           "Leave_Type": {
             "type": "string",
-            "enum": ["Sick", "Casual", "Special", "Bereavement"]
+            "enum": [
+              "Sick",
+              "Casual",
+              "Special",
+              "Bereavement"
+            ]
           },
           "Approval": {
             "type": "string",
             "default": "Pending",
-            "enum": ["Pending", "Approved", "Rejected"]
+            "enum": [
+              "Pending",
+              "Approved",
+              "Rejected"
+            ]
           },
           "Employee_Name": {
             "type": "string"
@@ -9159,7 +9471,12 @@
         }
       },
       "Payslips": {
-        "required": ["id"],
+        "required": [
+          "id",
+          "Month",
+          "Payslip",
+          "Year"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -9255,7 +9572,11 @@
             }
           },
           "user": {
-            "required": ["id", "username", "email"],
+            "required": [
+              "id",
+              "username",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9284,14 +9605,14 @@
               "role": {
                 "type": "string"
               },
+              "leave_balance": {
+                "type": "string"
+              },
               "payslips": {
                 "type": "array",
                 "items": {
                   "type": "string"
                 }
-              },
-              "leave_balance": {
-                "type": "string"
               },
               "created_by": {
                 "type": "string"
@@ -9302,10 +9623,14 @@
             }
           },
           "Year": {
-            "type": "string"
+            "type": "string",
+            "default": "2020"
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9346,7 +9671,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9389,6 +9717,10 @@
         }
       },
       "NewPayslips": {
+        "required": [
+          "Month",
+          "Year"
+        ],
         "properties": {
           "Employee_Name": {
             "type": "string"
@@ -9414,7 +9746,8 @@
             "type": "string"
           },
           "Year": {
-            "type": "string"
+            "type": "string",
+            "default": "2020"
           },
           "created_by": {
             "type": "string"
@@ -9425,7 +9758,9 @@
         }
       },
       "Timesheet": {
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -9438,11 +9773,20 @@
           },
           "Priority": {
             "type": "string",
-            "enum": ["high", "low", "medium"]
+            "enum": [
+              "high",
+              "low",
+              "medium"
+            ]
           },
           "Status": {
             "type": "string",
-            "enum": ["WIP", "Done", "Review", "Stuck"]
+            "enum": [
+              "WIP",
+              "Done",
+              "Review",
+              "Stuck"
+            ]
           },
           "Due_Date": {
             "type": "string"
@@ -9452,7 +9796,12 @@
           },
           "Project": {
             "type": "string",
-            "enum": ["OCR", "RPA", "HRMS", "Websites"]
+            "enum": [
+              "OCR",
+              "RPA",
+              "HRMS",
+              "Websites"
+            ]
           },
           "Remarks": {
             "type": "string"
@@ -9461,7 +9810,10 @@
             "type": "string"
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9502,7 +9854,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9554,11 +9909,20 @@
           },
           "Priority": {
             "type": "string",
-            "enum": ["high", "low", "medium"]
+            "enum": [
+              "high",
+              "low",
+              "medium"
+            ]
           },
           "Status": {
             "type": "string",
-            "enum": ["WIP", "Done", "Review", "Stuck"]
+            "enum": [
+              "WIP",
+              "Done",
+              "Review",
+              "Stuck"
+            ]
           },
           "Due_Date": {
             "type": "string"
@@ -9568,7 +9932,12 @@
           },
           "Project": {
             "type": "string",
-            "enum": ["OCR", "RPA", "HRMS", "Websites"]
+            "enum": [
+              "OCR",
+              "RPA",
+              "HRMS",
+              "Websites"
+            ]
           },
           "Remarks": {
             "type": "string"
@@ -9585,7 +9954,10 @@
         }
       },
       "UsersPermissionsRole": {
-        "required": ["id", "name"],
+        "required": [
+          "id",
+          "name"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -9603,7 +9975,13 @@
           "permissions": {
             "type": "array",
             "items": {
-              "required": ["id", "type", "controller", "action", "enabled"],
+              "required": [
+                "id",
+                "type",
+                "controller",
+                "action",
+                "enabled"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -9638,7 +10016,11 @@
           "users": {
             "type": "array",
             "items": {
-              "required": ["id", "username", "email"],
+              "required": [
+                "id",
+                "username",
+                "email"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -9667,14 +10049,14 @@
                 "role": {
                   "type": "string"
                 },
+                "leave_balance": {
+                  "type": "string"
+                },
                 "payslips": {
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
-                },
-                "leave_balance": {
-                  "type": "string"
                 },
                 "created_by": {
                   "type": "string"
@@ -9686,7 +10068,10 @@
             }
           },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9727,7 +10112,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9770,7 +10158,9 @@
         }
       },
       "NewUsersPermissionsRole": {
-        "required": ["name"],
+        "required": [
+          "name"
+        ],
         "properties": {
           "name": {
             "type": "string",
@@ -9803,7 +10193,11 @@
         }
       },
       "UsersPermissionsUser": {
-        "required": ["id", "username", "email"],
+        "required": [
+          "id",
+          "username",
+          "email"
+        ],
         "properties": {
           "id": {
             "type": "string"
@@ -9828,7 +10222,10 @@
             "default": false
           },
           "role": {
-            "required": ["id", "name"],
+            "required": [
+              "id",
+              "name"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9862,43 +10259,10 @@
               }
             }
           },
-          "payslips": {
-            "type": "array",
-            "items": {
-              "required": ["id"],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "Employee_Name": {
-                  "type": "string"
-                },
-                "Month": {
-                  "type": "string"
-                },
-                "Payslip": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "user": {
-                  "type": "string"
-                },
-                "Year": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
           "leave_balance": {
-            "required": ["id"],
+            "required": [
+              "id"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9944,8 +10308,51 @@
               }
             }
           },
+          "payslips": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "Month",
+                "Payslip",
+                "Year"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "Month": {
+                  "type": "string"
+                },
+                "Payslip": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "user": {
+                  "type": "string"
+                },
+                "Year": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "created_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -9986,7 +10393,10 @@
             }
           },
           "updated_by": {
-            "required": ["id", "email"],
+            "required": [
+              "id",
+              "email"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -10029,7 +10439,10 @@
         }
       },
       "NewUsersPermissionsUser": {
-        "required": ["username", "email"],
+        "required": [
+          "username",
+          "email"
+        ],
         "properties": {
           "username": {
             "type": "string",
@@ -10060,14 +10473,14 @@
           "role": {
             "type": "string"
           },
+          "leave_balance": {
+            "type": "string"
+          },
           "payslips": {
             "type": "array",
             "items": {
               "type": "string"
             }
-          },
-          "leave_balance": {
-            "type": "string"
           },
           "created_by": {
             "type": "string"
@@ -10078,7 +10491,10 @@
         }
       },
       "Error": {
-        "required": ["code", "message"],
+        "required": [
+          "code",
+          "message"
+        ],
         "properties": {
           "code": {
             "type": "integer",
