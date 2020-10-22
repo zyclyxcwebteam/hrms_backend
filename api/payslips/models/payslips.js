@@ -29,7 +29,6 @@ module.exports = {
       await strapi.plugins["email"].services.email.send({
         to: `${user.email}`,
         from: "skanjarla@zyclyx.com",
-        cc: "skanjarla@zyclyx.com skanjarla@zyclyx.com skanjarla@zyclyx.com",
         replyTo: "hr.operations@zyclyx.com",
         subject: `Payslip - ${data.Month} ${data.Year}`,
         html: `
