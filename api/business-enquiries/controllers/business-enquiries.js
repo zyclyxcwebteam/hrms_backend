@@ -1,46 +1,42 @@
 "use strict";
 const { parseMultipartData, sanitizeEntity } = require("strapi-utils");
-/**
- * Read the documentation (https://strapi.io/documentation/v3.x/concepts/controllers.html#core-controllers)
- * to customize this controller
- */
 
 module.exports = {
+  /**
+   * Create a record.
+   *
+   * @return {Object}
+   */
+
   async create(ctx) {
     let entity;
-    let name = "business-enquiries";
+    const controllerName = "business-enquiries";
+    // query email to and cc list from emails-lists collection for careers_form
+    const emailList = await strapi
+      .query("email-lists")
+      .find({ List_Name: "contact_form" });
     if (ctx.is("multipart")) {
       const { data, files } = parseMultipartData(ctx);
-      /* eslint-disable */
-      entity = await strapi.services[name].create(data, { files });
+      entity = await strapi.services[controllerName].create(data, { files });
     } else {
-      entity = await strapi.services[name].create(ctx.request.body);
+      entity = await strapi.services[controllerName].create(ctx.request.body);
     }
-    console.log("Send email notification", entity);
+
     await strapi.plugins["email"].services.email.send({
-      to: "skanjarla@zyclyx.com",
+      to: emailList[0].To_List,
       from: "skanjarla@zyclyx.com",
-      cc: "skanjarla@zyclyx.com",
-      subject: "business enquiry from - website",
-      text: `
-        Dear Team,
-
-        Hope you are doing well.
-        
-        Please find the enquiry details below from ${entity.Website}.
-        
-         Full Name : ${entity.Full_Name}
-
-         Phone : ${entity.Phone}
-
-         Email : ${entity.Email}
-
-         Message: ${entity.Message}
-        
-        Thanks & Regards,
-           
-        `,
+      cc: emailList[0].CC_List,
+      replyTo: "hr.operations@zyclyx.com",
+      subject: `Contact Us Inquiry from - ${ctx.request.body.Website} website`,
+      html: `
+          <p>Dear Team,</p>
+          <p>Please find the inquiry details below from <strong>${ctx.request.body.Website}</strong> website contact us form.</p>          
+          <p>Fullname - ${ctx.request.body.Full_Name}</p>         
+          <p>Email - ${ctx.request.body.Email}</p>
+          <p>Phone - ${ctx.request.body.Phone}</p>
+          <p>Message - ${ctx.request.body.Message}</p>            
+          <p>Thanks,</p>`,
     });
-    return sanitizeEntity(entity, { model: strapi.models[name] });
+    return sanitizeEntity(entity, { model: strapi.models[controllerName] });
   },
 };
