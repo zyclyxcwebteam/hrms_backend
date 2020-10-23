@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_lists",
+  "info": {
+    "name": "Email Lists"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "List_Name": {
+      "type": "string"
+    },
+    "To_List": {
+      "type": "text"
+    },
+    "CC_List": {
+      "type": "text"
+    }
+  }
+}
