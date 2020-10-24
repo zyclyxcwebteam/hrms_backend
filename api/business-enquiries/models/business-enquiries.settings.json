@@ -10,13 +10,16 @@
   },
   "attributes": {
     "Full_Name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "Phone": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Message": {
       "type": "string"

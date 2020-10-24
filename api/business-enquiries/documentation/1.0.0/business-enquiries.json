@@ -529,7 +529,10 @@
     "schemas": {
       "Business-enquiries": {
         "required": [
-          "id"
+          "id",
+          "Full_Name",
+          "Email",
+          "Phone"
         ],
         "properties": {
           "id": {
@@ -649,6 +652,11 @@
         }
       },
       "NewBusiness-enquiries": {
+        "required": [
+          "Full_Name",
+          "Email",
+          "Phone"
+        ],
         "properties": {
           "Full_Name": {
             "type": "string"

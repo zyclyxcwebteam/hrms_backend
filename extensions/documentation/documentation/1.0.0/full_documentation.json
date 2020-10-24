@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/23/2020 6:22:25 PM"
+    "x-generation-date": "10/23/2020 7:10:37 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8534,7 +8534,10 @@
       },
       "Business-enquiries": {
         "required": [
-          "id"
+          "id",
+          "Full_Name",
+          "Email",
+          "Phone"
         ],
         "properties": {
           "id": {
@@ -8654,6 +8657,11 @@
         }
       },
       "NewBusiness-enquiries": {
+        "required": [
+          "Full_Name",
+          "Email",
+          "Phone"
+        ],
         "properties": {
           "Full_Name": {
             "type": "string"
