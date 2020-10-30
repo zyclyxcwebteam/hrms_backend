@@ -522,7 +522,7 @@
           "id": {
             "type": "string"
           },
-          "Ocation": {
+          "Occasion": {
             "type": "string"
           },
           "Date": {
@@ -627,7 +627,7 @@
       },
       "NewHolidays": {
         "properties": {
-          "Ocation": {
+          "Occasion": {
             "type": "string"
           },
           "Date": {

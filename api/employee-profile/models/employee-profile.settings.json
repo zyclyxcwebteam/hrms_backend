@@ -9,20 +9,14 @@
     "timestamps": true
   },
   "attributes": {
-    "Emp_Name": {
+    "Employee_Name": {
       "type": "string"
     },
-    "Role": {
+    "Designation": {
       "type": "string"
     },
-    "Emp_ID": {
+    "Employee_ID": {
       "type": "string"
-    },
-    "DOJ": {
-      "type": "date"
-    },
-    "DOB": {
-      "type": "date"
     },
     "Gender": {
       "type": "enumeration",
@@ -34,20 +28,63 @@
     "Work_Email": {
       "type": "email"
     },
-    "Personal_Email": {
-      "type": "email"
-    },
-    "Phone": {
+    "Mobile": {
       "type": "string"
     },
-    "Address": {
-      "type": "richtext"
+    "Department": {
+      "type": "enumeration",
+      "enum": [
+        "IT",
+        "HR",
+        "Sales",
+        "Business_Development"
+      ]
     },
-    "Bank_Accounts": {
-      "type": "richtext"
+    "Marital_Status": {
+      "type": "enumeration",
+      "enum": [
+        "Single",
+        "Married"
+      ]
     },
-    "Emergency_Contact": {
-      "type": "richtext"
+    "Blood_Group": {
+      "type": "enumeration",
+      "enum": [
+        "A_Positive",
+        "A_Negative",
+        "B_Positive",
+        "B_Negative",
+        "AB_Positive",
+        "AB_Negative",
+        "O_Positive",
+        "O_Negative"
+      ]
+    },
+    "Work_Phone": {
+      "type": "string"
+    },
+    "Home_Phone": {
+      "type": "string"
+    },
+    "Other_Email": {
+      "type": "email"
+    },
+    "Permanent_Address": {
+      "type": "text"
+    },
+    "Present_Address": {
+      "type": "text"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "employee_profile"
+    },
+    "Hire_Date": {
+      "type": "string"
+    },
+    "DOB": {
+      "type": "string"
     }
   }
 }

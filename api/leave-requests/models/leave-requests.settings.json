@@ -41,6 +41,11 @@
     },
     "Employee_Name": {
       "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "leave_requests"
     }
   }
 }

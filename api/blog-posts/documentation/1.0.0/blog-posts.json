@@ -1,12 +1,12 @@
 {
   "paths": {
-    "/leave-requests": {
+    "/blog-posts": {
       "get": {
         "deprecated": false,
-        "description": "Find all the leave-requests's records",
+        "description": "Find all the blog-posts's records",
         "responses": {
           "200": {
-            "description": "Retrieve leave-requests document(s)",
+            "description": "Retrieve blog-posts document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -52,7 +52,7 @@
         },
         "summary": "",
         "tags": [
-          "Leave-requests"
+          "Blog-posts"
         ],
         "parameters": [
           {
@@ -195,10 +195,10 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new leave-requests record",
+        "description": "Create a new blog-posts record",
         "responses": {
           "200": {
-            "description": "Retrieve leave-requests document(s)",
+            "description": "Retrieve blog-posts document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -244,7 +244,7 @@
         },
         "summary": "",
         "tags": [
-          "Leave-requests"
+          "Blog-posts"
         ],
         "requestBody": {
           "description": "",
@@ -252,20 +252,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewLeave-requests"
+                "$ref": "#/components/schemas/NewBlog-posts"
               }
             }
           }
         }
       }
     },
-    "/leave-requests/count": {
+    "/blog-posts/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of leave-requests documents",
+        "description": "Retrieve the numver of blog-posts documents",
         "responses": {
           "200": {
-            "description": "Retrieve leave-requests document(s)",
+            "description": "Retrieve blog-posts document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -311,18 +311,18 @@
         },
         "summary": "",
         "tags": [
-          "Leave-requests"
+          "Blog-posts"
         ],
         "parameters": []
       }
     },
-    "/leave-requests/{id}": {
+    "/blog-posts/{id}": {
       "get": {
         "deprecated": false,
-        "description": "Find one leave-requests record",
+        "description": "Find one blog-posts record",
         "responses": {
           "200": {
-            "description": "Retrieve leave-requests document(s)",
+            "description": "Retrieve blog-posts document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -368,7 +368,7 @@
         },
         "summary": "",
         "tags": [
-          "Leave-requests"
+          "Blog-posts"
         ],
         "parameters": [
           {
@@ -385,10 +385,10 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a single leave-requests record",
+        "description": "Update a single blog-posts record",
         "responses": {
           "200": {
-            "description": "Retrieve leave-requests document(s)",
+            "description": "Retrieve blog-posts document(s)",
             "content": {
               "application/json": {
                 "schema": {
@@ -434,7 +434,7 @@
         },
         "summary": "",
         "tags": [
-          "Leave-requests"
+          "Blog-posts"
         ],
         "requestBody": {
           "description": "",
@@ -442,7 +442,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewLeave-requests"
+                "$ref": "#/components/schemas/NewBlog-posts"
               }
             }
           }
@@ -462,10 +462,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a single leave-requests record",
+        "description": "Delete a single blog-posts record",
         "responses": {
           "200": {
-            "description": "deletes a single leave-requests based on the ID supplied",
+            "description": "deletes a single blog-posts based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -508,7 +508,7 @@
         },
         "summary": "",
         "tags": [
-          "Leave-requests"
+          "Blog-posts"
         ],
         "parameters": [
           {
@@ -527,7 +527,7 @@
   },
   "components": {
     "schemas": {
-      "Leave-requests": {
+      "Blog-posts": {
         "required": [
           "id"
         ],
@@ -535,102 +535,70 @@
           "id": {
             "type": "string"
           },
-          "Applied_Date": {
+          "Title": {
             "type": "string"
           },
-          "From_Date": {
+          "Content": {
             "type": "string"
           },
-          "To_Date": {
-            "type": "string"
-          },
-          "Message": {
-            "type": "string"
-          },
-          "Leave_Type": {
-            "type": "string",
-            "enum": [
-              "Sick",
-              "Casual",
-              "Special",
-              "Bereavement"
-            ]
-          },
-          "Approval": {
-            "type": "string",
-            "default": "Pending",
-            "enum": [
-              "Pending",
-              "Approved",
-              "Rejected"
-            ]
-          },
-          "Employee_Name": {
-            "type": "string"
-          },
-          "user": {
+          "Image": {
             "required": [
               "id",
-              "username",
-              "email"
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
             ],
             "properties": {
               "id": {
                 "type": "string"
               },
-              "username": {
+              "name": {
                 "type": "string"
               },
-              "email": {
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
                 "type": "string"
               },
               "provider": {
                 "type": "string"
               },
-              "password": {
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
                 "type": "string"
-              },
-              "resetPasswordToken": {
-                "type": "string"
-              },
-              "confirmed": {
-                "type": "boolean"
-              },
-              "blocked": {
-                "type": "boolean"
-              },
-              "role": {
-                "type": "string"
-              },
-              "leave_balance": {
-                "type": "string"
-              },
-              "payslips": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "employee_profile": {
-                "type": "string"
-              },
-              "attendances": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "leave_requests": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "team_tasks": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
               },
               "created_by": {
                 "type": "string"
@@ -639,6 +607,9 @@
                 "type": "string"
               }
             }
+          },
+          "Published_at": {
+            "type": "string"
           },
           "created_by": {
             "required": [
@@ -730,42 +701,15 @@
           }
         }
       },
-      "NewLeave-requests": {
+      "NewBlog-posts": {
         "properties": {
-          "Applied_Date": {
+          "Title": {
             "type": "string"
           },
-          "From_Date": {
+          "Content": {
             "type": "string"
           },
-          "To_Date": {
-            "type": "string"
-          },
-          "Message": {
-            "type": "string"
-          },
-          "Leave_Type": {
-            "type": "string",
-            "enum": [
-              "Sick",
-              "Casual",
-              "Special",
-              "Bereavement"
-            ]
-          },
-          "Approval": {
-            "type": "string",
-            "default": "Pending",
-            "enum": [
-              "Pending",
-              "Approved",
-              "Rejected"
-            ]
-          },
-          "Employee_Name": {
-            "type": "string"
-          },
-          "user": {
+          "Published_at": {
             "type": "string"
           },
           "created_by": {

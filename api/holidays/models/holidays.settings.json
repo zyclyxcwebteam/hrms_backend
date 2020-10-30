@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "Ocation": {
+    "Occasion": {
       "type": "text"
     },
     "Date": {

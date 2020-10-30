@@ -60,6 +60,22 @@
     "payslips": {
       "via": "user",
       "collection": "payslips"
+    },
+    "employee_profile": {
+      "via": "user",
+      "model": "employee-profile"
+    },
+    "attendances": {
+      "via": "user",
+      "collection": "attendance"
+    },
+    "leave_requests": {
+      "via": "user",
+      "collection": "leave-requests"
+    },
+    "team_tasks": {
+      "via": "user",
+      "collection": "timesheet"
     }
   }
 }

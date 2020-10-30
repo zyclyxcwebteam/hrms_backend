@@ -542,7 +542,7 @@
               "WIP",
               "Done",
               "Review",
-              "Stuck"
+              "Blockage"
             ]
           },
           "Due_Date": {
@@ -563,8 +563,80 @@
           "Remarks": {
             "type": "string"
           },
-          "Owner": {
+          "Employee_Name": {
             "type": "string"
+          },
+          "user": {
+            "required": [
+              "id",
+              "username",
+              "email"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "username": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "password": {
+                "type": "string"
+              },
+              "resetPasswordToken": {
+                "type": "string"
+              },
+              "confirmed": {
+                "type": "boolean"
+              },
+              "blocked": {
+                "type": "boolean"
+              },
+              "role": {
+                "type": "string"
+              },
+              "leave_balance": {
+                "type": "string"
+              },
+              "payslips": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "employee_profile": {
+                "type": "string"
+              },
+              "attendances": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "leave_requests": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "team_tasks": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
           },
           "created_by": {
             "required": [
@@ -678,7 +750,7 @@
               "WIP",
               "Done",
               "Review",
-              "Stuck"
+              "Blockage"
             ]
           },
           "Due_Date": {
@@ -699,7 +771,10 @@
           "Remarks": {
             "type": "string"
           },
-          "Owner": {
+          "Employee_Name": {
+            "type": "string"
+          },
+          "user": {
             "type": "string"
           },
           "created_by": {

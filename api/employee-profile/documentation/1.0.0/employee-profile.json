@@ -535,19 +535,13 @@
           "id": {
             "type": "string"
           },
-          "Emp_Name": {
+          "Employee_Name": {
             "type": "string"
           },
-          "Role": {
+          "Designation": {
             "type": "string"
           },
-          "Emp_ID": {
-            "type": "string"
-          },
-          "DOJ": {
-            "type": "string"
-          },
-          "DOB": {
+          "Employee_ID": {
             "type": "string"
           },
           "Gender": {
@@ -560,19 +554,129 @@
           "Work_Email": {
             "type": "string"
           },
-          "Personal_Email": {
+          "Mobile": {
             "type": "string"
           },
-          "Phone": {
+          "Department": {
+            "type": "string",
+            "enum": [
+              "IT",
+              "HR",
+              "Sales",
+              "Business_Development"
+            ]
+          },
+          "Marital_Status": {
+            "type": "string",
+            "enum": [
+              "Single",
+              "Married"
+            ]
+          },
+          "Blood_Group": {
+            "type": "string",
+            "enum": [
+              "A_Positive",
+              "A_Negative",
+              "B_Positive",
+              "B_Negative",
+              "AB_Positive",
+              "AB_Negative",
+              "O_Positive",
+              "O_Negative"
+            ]
+          },
+          "Work_Phone": {
             "type": "string"
           },
-          "Address": {
+          "Home_Phone": {
             "type": "string"
           },
-          "Bank_Accounts": {
+          "Other_Email": {
             "type": "string"
           },
-          "Emergency_Contact": {
+          "Permanent_Address": {
+            "type": "string"
+          },
+          "Present_Address": {
+            "type": "string"
+          },
+          "user": {
+            "required": [
+              "id",
+              "username",
+              "email"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "username": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "password": {
+                "type": "string"
+              },
+              "resetPasswordToken": {
+                "type": "string"
+              },
+              "confirmed": {
+                "type": "boolean"
+              },
+              "blocked": {
+                "type": "boolean"
+              },
+              "role": {
+                "type": "string"
+              },
+              "leave_balance": {
+                "type": "string"
+              },
+              "payslips": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "employee_profile": {
+                "type": "string"
+              },
+              "attendances": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "leave_requests": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "team_tasks": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "Hire_Date": {
+            "type": "string"
+          },
+          "DOB": {
             "type": "string"
           },
           "created_by": {
@@ -667,19 +771,13 @@
       },
       "NewEmployee-profile": {
         "properties": {
-          "Emp_Name": {
+          "Employee_Name": {
             "type": "string"
           },
-          "Role": {
+          "Designation": {
             "type": "string"
           },
-          "Emp_ID": {
-            "type": "string"
-          },
-          "DOJ": {
-            "type": "string"
-          },
-          "DOB": {
+          "Employee_ID": {
             "type": "string"
           },
           "Gender": {
@@ -692,19 +790,60 @@
           "Work_Email": {
             "type": "string"
           },
-          "Personal_Email": {
+          "Mobile": {
             "type": "string"
           },
-          "Phone": {
+          "Department": {
+            "type": "string",
+            "enum": [
+              "IT",
+              "HR",
+              "Sales",
+              "Business_Development"
+            ]
+          },
+          "Marital_Status": {
+            "type": "string",
+            "enum": [
+              "Single",
+              "Married"
+            ]
+          },
+          "Blood_Group": {
+            "type": "string",
+            "enum": [
+              "A_Positive",
+              "A_Negative",
+              "B_Positive",
+              "B_Negative",
+              "AB_Positive",
+              "AB_Negative",
+              "O_Positive",
+              "O_Negative"
+            ]
+          },
+          "Work_Phone": {
             "type": "string"
           },
-          "Address": {
+          "Home_Phone": {
             "type": "string"
           },
-          "Bank_Accounts": {
+          "Other_Email": {
             "type": "string"
           },
-          "Emergency_Contact": {
+          "Permanent_Address": {
+            "type": "string"
+          },
+          "Present_Address": {
+            "type": "string"
+          },
+          "user": {
+            "type": "string"
+          },
+          "Hire_Date": {
+            "type": "string"
+          },
+          "DOB": {
             "type": "string"
           },
           "created_by": {

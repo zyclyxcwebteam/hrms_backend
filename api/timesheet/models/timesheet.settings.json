@@ -29,7 +29,7 @@
         "WIP",
         "Done",
         "Review",
-        "Stuck"
+        "Blockage"
       ]
     },
     "Due_Date": {
@@ -50,8 +50,13 @@
     "Remarks": {
       "type": "richtext"
     },
-    "Owner": {
+    "Employee_Name": {
       "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "team_tasks"
     }
   }
 }

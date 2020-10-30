@@ -658,6 +658,27 @@
                   "type": "string"
                 }
               },
+              "employee_profile": {
+                "type": "string"
+              },
+              "attendances": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "leave_requests": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "team_tasks": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "created_by": {
                 "type": "string"
               },

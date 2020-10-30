@@ -1340,6 +1340,208 @@
               }
             }
           },
+          "employee_profile": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "Employee_Name": {
+                "type": "string"
+              },
+              "Designation": {
+                "type": "string"
+              },
+              "Employee_ID": {
+                "type": "string"
+              },
+              "Gender": {
+                "type": "string"
+              },
+              "Work_Email": {
+                "type": "string"
+              },
+              "Mobile": {
+                "type": "string"
+              },
+              "Department": {
+                "type": "string"
+              },
+              "Marital_Status": {
+                "type": "string"
+              },
+              "Blood_Group": {
+                "type": "string"
+              },
+              "Work_Phone": {
+                "type": "string"
+              },
+              "Home_Phone": {
+                "type": "string"
+              },
+              "Other_Email": {
+                "type": "string"
+              },
+              "Permanent_Address": {
+                "type": "string"
+              },
+              "Present_Address": {
+                "type": "string"
+              },
+              "user": {
+                "type": "string"
+              },
+              "Hire_Date": {
+                "type": "string"
+              },
+              "DOB": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "attendances": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Date": {
+                  "type": "string"
+                },
+                "Emp_Name": {
+                  "type": "string"
+                },
+                "Action": {
+                  "type": "string"
+                },
+                "Time": {
+                  "type": "string"
+                },
+                "Status": {
+                  "type": "string"
+                },
+                "Notes": {
+                  "type": "string"
+                },
+                "Seconds": {
+                  "type": "integer"
+                },
+                "user": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "leave_requests": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Applied_Date": {
+                  "type": "string"
+                },
+                "From_Date": {
+                  "type": "string"
+                },
+                "To_Date": {
+                  "type": "string"
+                },
+                "Message": {
+                  "type": "string"
+                },
+                "Leave_Type": {
+                  "type": "string"
+                },
+                "Approval": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "team_tasks": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Date": {
+                  "type": "string"
+                },
+                "Task": {
+                  "type": "string"
+                },
+                "Priority": {
+                  "type": "string"
+                },
+                "Status": {
+                  "type": "string"
+                },
+                "Due_Date": {
+                  "type": "string"
+                },
+                "Time_Est": {
+                  "type": "number"
+                },
+                "Project": {
+                  "type": "string"
+                },
+                "Remarks": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -1469,6 +1671,27 @@
             "type": "string"
           },
           "payslips": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "employee_profile": {
+            "type": "string"
+          },
+          "attendances": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "leave_requests": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "team_tasks": {
             "type": "array",
             "items": {
               "type": "string"
