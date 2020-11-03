@@ -34,6 +34,9 @@ module.exports = {
           <p>Fullname - ${ctx.request.body.Full_Name}</p>         
           <p>Email - ${ctx.request.body.Email}</p>
           <p>Phone - ${ctx.request.body.Phone}</p>
+          <p>Country - ${ctx.request.body.Country}</p>
+          <p>Company - ${ctx.request.body.Company}</p>
+          <p>Intrested In - ${ctx.request.body.Interested}</p>
           <p>Message - ${ctx.request.body.Message}</p>            
           <p>Thanks,</p>`,
     });

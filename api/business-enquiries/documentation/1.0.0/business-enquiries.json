@@ -561,6 +561,15 @@
               "VIRTECH"
             ]
           },
+          "Company": {
+            "type": "string"
+          },
+          "Country": {
+            "type": "string"
+          },
+          "Interested": {
+            "type": "string"
+          },
           "created_by": {
             "required": [
               "id",
@@ -680,6 +689,15 @@
               "INTELLECT",
               "VIRTECH"
             ]
+          },
+          "Company": {
+            "type": "string"
+          },
+          "Country": {
+            "type": "string"
+          },
+          "Interested": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

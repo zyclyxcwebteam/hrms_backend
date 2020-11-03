@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/02/2020 3:51:39 PM"
+    "x-generation-date": "11/03/2020 6:55:39 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -9358,6 +9358,15 @@
               "VIRTECH"
             ]
           },
+          "Company": {
+            "type": "string"
+          },
+          "Country": {
+            "type": "string"
+          },
+          "Interested": {
+            "type": "string"
+          },
           "created_by": {
             "required": [
               "id",
@@ -9477,6 +9486,15 @@
               "INTELLECT",
               "VIRTECH"
             ]
+          },
+          "Company": {
+            "type": "string"
+          },
+          "Country": {
+            "type": "string"
+          },
+          "Interested": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

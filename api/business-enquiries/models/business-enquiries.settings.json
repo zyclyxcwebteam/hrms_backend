@@ -34,6 +34,15 @@
         "INTELLECT",
         "VIRTECH"
       ]
+    },
+    "Company": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Interested": {
+      "type": "text"
     }
   }
 }
