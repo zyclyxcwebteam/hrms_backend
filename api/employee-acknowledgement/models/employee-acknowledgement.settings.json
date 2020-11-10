@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_acknowledgements",
+  "info": {
+    "name": "Employee Acknowledgement"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Employee_Name": {
+      "type": "string"
+    },
+    "Policy_Type": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Acknowledged",
+        "Pending"
+      ],
+      "default": "Pending"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "employee_acknowledgements"
+    },
+    "Acknowledgement_Date": {
+      "type": "date"
+    }
+  }
+}

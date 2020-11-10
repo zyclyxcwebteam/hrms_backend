@@ -630,6 +630,12 @@
                   "type": "string"
                 }
               },
+              "employee_acknowledgements": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "created_by": {
                 "type": "string"
               },

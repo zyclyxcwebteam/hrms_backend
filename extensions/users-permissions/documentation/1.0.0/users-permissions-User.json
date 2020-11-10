@@ -1542,6 +1542,40 @@
               }
             }
           },
+          "employee_acknowledgements": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "Policy_Type": {
+                  "type": "string"
+                },
+                "Status": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "string"
+                },
+                "Acknowledgement_Date": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -1692,6 +1726,12 @@
             }
           },
           "team_tasks": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "employee_acknowledgements": {
             "type": "array",
             "items": {
               "type": "string"

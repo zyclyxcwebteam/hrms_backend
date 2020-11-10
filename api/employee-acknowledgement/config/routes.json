@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/employee-acknowledgements",
+      "handler": "employee-acknowledgement.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employee-acknowledgements/count",
+      "handler": "employee-acknowledgement.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/employee-acknowledgements/:id",
+      "handler": "employee-acknowledgement.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/employee-acknowledgements",
+      "handler": "employee-acknowledgement.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/employee-acknowledgements/:id",
+      "handler": "employee-acknowledgement.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/employee-acknowledgements/:id",
+      "handler": "employee-acknowledgement.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

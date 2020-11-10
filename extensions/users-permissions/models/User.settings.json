@@ -76,6 +76,10 @@
     "team_tasks": {
       "via": "user",
       "collection": "timesheet"
+    },
+    "employee_acknowledgements": {
+      "via": "user",
+      "collection": "employee-acknowledgement"
     }
   }
 }
