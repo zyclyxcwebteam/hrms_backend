@@ -13,14 +13,14 @@ module.exports = ({ env }) => ({
       host: "smtp.gmail.com", //SMTP Host
       port: 465, //SMTP Port
       secure: true,
-      username: "skanjarla@zyclyx.com",
-      password: "dnxusjsfnorgvymw",
+      username: "hr.operations@zyclyx.com",
+      password: "novasurlfcynuhgk",
       rejectUnauthorized: true,
       requireTLS: true,
       connectionTimeout: 1,
     },
     settings: {
-      from: "skanjarla@zyclyx.com",
+      from: "hr.operations@zyclyx.com",
       replyTo: "hr.operations@zyclyx.com",
     },
   },

@@ -28,7 +28,7 @@ module.exports = {
       const buffer = Buffer.from(response.data, "base64");
       await strapi.plugins["email"].services.email.send({
         to: `${user.email}`,
-        from: "skanjarla@zyclyx.com",
+        from: "hr.operations@zyclyx.com",
         replyTo: "hr.operations@zyclyx.com",
         subject: `Payslip - ${data.Month} ${data.Year}`,
         html: `

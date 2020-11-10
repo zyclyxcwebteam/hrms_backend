@@ -24,7 +24,7 @@ module.exports = {
 
     await strapi.plugins["email"].services.email.send({
       to: emailList[0].To_List,
-      from: "skanjarla@zyclyx.com",
+      from: "hr.operations@zyclyx.com",
       cc: emailList[0].CC_List,
       replyTo: "hr.operations@zyclyx.com",
       subject: `Contact Us Inquiry from - ${ctx.request.body.Website} website`,
