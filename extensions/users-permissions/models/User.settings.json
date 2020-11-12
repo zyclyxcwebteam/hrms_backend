@@ -80,6 +80,10 @@
     "employee_acknowledgements": {
       "via": "user",
       "collection": "employee-acknowledgement"
+    },
+    "grievances": {
+      "via": "user",
+      "collection": "grievance"
     }
   }
 }

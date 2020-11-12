@@ -671,6 +671,12 @@
                   "type": "string"
                 }
               },
+              "grievances": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "created_by": {
                 "type": "string"
               },

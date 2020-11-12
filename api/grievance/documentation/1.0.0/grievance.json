@@ -1,18 +1,18 @@
 {
   "paths": {
-    "/payslips": {
+    "/grievances": {
       "get": {
         "deprecated": false,
-        "description": "Find all the payslips's records",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve payslips document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Payslips"
+                    "$ref": "#/components/schemas/Grievance"
                   }
                 }
               }
@@ -51,7 +51,7 @@
         },
         "summary": "",
         "tags": [
-          "Payslips"
+          "Grievance"
         ],
         "parameters": [
           {
@@ -194,14 +194,14 @@
       },
       "post": {
         "deprecated": false,
-        "description": "Create a new payslips record",
+        "description": "Create a new record",
         "responses": {
           "200": {
-            "description": "Retrieve payslips document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Payslips"
+                  "$ref": "#/components/schemas/Grievance"
                 }
               }
             }
@@ -239,7 +239,7 @@
         },
         "summary": "",
         "tags": [
-          "Payslips"
+          "Grievance"
         ],
         "requestBody": {
           "description": "",
@@ -247,20 +247,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewPayslips"
+                "$ref": "#/components/schemas/NewGrievance"
               }
             }
           }
         }
       }
     },
-    "/payslips/count": {
+    "/grievances/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of payslips documents",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve payslips document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
@@ -306,22 +306,22 @@
         },
         "summary": "",
         "tags": [
-          "Payslips"
+          "Grievance"
         ],
         "parameters": []
       }
     },
-    "/payslips/{id}": {
+    "/grievances/{id}": {
       "get": {
         "deprecated": false,
-        "description": "Find one payslips record",
+        "description": "",
         "responses": {
           "200": {
-            "description": "Retrieve payslips document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Payslips"
+                  "$ref": "#/components/schemas/Grievance"
                 }
               }
             }
@@ -359,7 +359,7 @@
         },
         "summary": "",
         "tags": [
-          "Payslips"
+          "Grievance"
         ],
         "parameters": [
           {
@@ -376,14 +376,14 @@
       },
       "put": {
         "deprecated": false,
-        "description": "Update a single payslips record",
+        "description": "Update a record",
         "responses": {
           "200": {
-            "description": "Retrieve payslips document(s)",
+            "description": "response",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Payslips"
+                  "$ref": "#/components/schemas/Grievance"
                 }
               }
             }
@@ -421,7 +421,7 @@
         },
         "summary": "",
         "tags": [
-          "Payslips"
+          "Grievance"
         ],
         "requestBody": {
           "description": "",
@@ -429,7 +429,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/NewPayslips"
+                "$ref": "#/components/schemas/NewGrievance"
               }
             }
           }
@@ -449,10 +449,10 @@
       },
       "delete": {
         "deprecated": false,
-        "description": "Delete a single payslips record",
+        "description": "Delete a record",
         "responses": {
           "200": {
-            "description": "deletes a single payslips based on the ID supplied",
+            "description": "deletes a single record based on the ID supplied",
             "content": {
               "application/json": {
                 "schema": {
@@ -495,7 +495,7 @@
         },
         "summary": "",
         "tags": [
-          "Payslips"
+          "Grievance"
         ],
         "parameters": [
           {
@@ -514,12 +514,9 @@
   },
   "components": {
     "schemas": {
-      "Payslips": {
+      "Grievance": {
         "required": [
-          "id",
-          "Month",
-          "Payslip",
-          "Year"
+          "id"
         ],
         "properties": {
           "id": {
@@ -528,92 +525,37 @@
           "Employee_Name": {
             "type": "string"
           },
-          "Month": {
-            "type": "string",
-            "enum": [
-              "Jan",
-              "Feb",
-              "Mar",
-              "Apr",
-              "May",
-              "Jun",
-              "Jul",
-              "Aug",
-              "Sept",
-              "Oct",
-              "Nov",
-              "Dec"
-            ]
+          "Email": {
+            "type": "string"
           },
-          "Payslip": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "name",
-                "hash",
-                "mime",
-                "size",
-                "url",
-                "provider"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "alternativeText": {
-                  "type": "string"
-                },
-                "caption": {
-                  "type": "string"
-                },
-                "width": {
-                  "type": "integer"
-                },
-                "height": {
-                  "type": "integer"
-                },
-                "formats": {
-                  "type": "object"
-                },
-                "hash": {
-                  "type": "string"
-                },
-                "ext": {
-                  "type": "string"
-                },
-                "mime": {
-                  "type": "string"
-                },
-                "size": {
-                  "type": "number"
-                },
-                "url": {
-                  "type": "string"
-                },
-                "previewUrl": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "provider_metadata": {
-                  "type": "object"
-                },
-                "related": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
+          "Complaint_Date": {
+            "type": "string"
+          },
+          "Event_Time_Date": {
+            "type": "datetime"
+          },
+          "Place_Of_Event": {
+            "type": "string"
+          },
+          "Witness": {
+            "type": "string"
+          },
+          "Account_Of_Event": {
+            "type": "string"
+          },
+          "Violations": {
+            "type": "string"
+          },
+          "Proposed_Solution": {
+            "type": "string"
+          },
+          "Status": {
+            "type": "string",
+            "default": "Active",
+            "enum": [
+              "Active",
+              "Resolved"
+            ]
           },
           "user": {
             "required": [
@@ -699,10 +641,6 @@
               }
             }
           },
-          "Year": {
-            "type": "string",
-            "default": "2020"
-          },
           "created_by": {
             "required": [
               "id",
@@ -793,38 +731,45 @@
           }
         }
       },
-      "NewPayslips": {
-        "required": [
-          "Month",
-          "Year"
-        ],
+      "NewGrievance": {
         "properties": {
           "Employee_Name": {
             "type": "string"
           },
-          "Month": {
+          "Email": {
+            "type": "string"
+          },
+          "Complaint_Date": {
+            "type": "string"
+          },
+          "Event_Time_Date": {
+            "type": "datetime"
+          },
+          "Place_Of_Event": {
+            "type": "string"
+          },
+          "Witness": {
+            "type": "string"
+          },
+          "Account_Of_Event": {
+            "type": "string"
+          },
+          "Violations": {
+            "type": "string"
+          },
+          "Proposed_Solution": {
+            "type": "string"
+          },
+          "Status": {
             "type": "string",
+            "default": "Active",
             "enum": [
-              "Jan",
-              "Feb",
-              "Mar",
-              "Apr",
-              "May",
-              "Jun",
-              "Jul",
-              "Aug",
-              "Sept",
-              "Oct",
-              "Nov",
-              "Dec"
+              "Active",
+              "Resolved"
             ]
           },
           "user": {
             "type": "string"
-          },
-          "Year": {
-            "type": "string",
-            "default": "2020"
           },
           "created_by": {
             "type": "string"
@@ -838,7 +783,7 @@
   },
   "tags": [
     {
-      "name": "Payslips"
+      "name": "Grievance"
     }
   ]
 }

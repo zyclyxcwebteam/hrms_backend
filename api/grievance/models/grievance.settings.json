@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grievances",
+  "info": {
+    "name": "Grievance"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Employee_Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Complaint_Date": {
+      "type": "date"
+    },
+    "Event_Time_Date": {
+      "type": "datetime"
+    },
+    "Place_Of_Event": {
+      "type": "string"
+    },
+    "Witness": {
+      "type": "string"
+    },
+    "Account_Of_Event": {
+      "type": "text"
+    },
+    "Violations": {
+      "type": "text"
+    },
+    "Proposed_Solution": {
+      "type": "text"
+    },
+    "Status": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Resolved"
+      ],
+      "default": "Active"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "grievances"
+    }
+  }
+}

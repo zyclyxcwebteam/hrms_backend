@@ -1576,6 +1576,58 @@
               }
             }
           },
+          "grievances": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "Email": {
+                  "type": "string"
+                },
+                "Complaint_Date": {
+                  "type": "string"
+                },
+                "Event_Time_Date": {
+                  "type": "datetime"
+                },
+                "Place_Of_Event": {
+                  "type": "string"
+                },
+                "Witness": {
+                  "type": "string"
+                },
+                "Account_Of_Event": {
+                  "type": "string"
+                },
+                "Violations": {
+                  "type": "string"
+                },
+                "Proposed_Solution": {
+                  "type": "string"
+                },
+                "Status": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -1732,6 +1784,12 @@
             }
           },
           "employee_acknowledgements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "grievances": {
             "type": "array",
             "items": {
               "type": "string"
