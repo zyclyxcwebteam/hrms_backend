@@ -84,6 +84,14 @@
     "grievances": {
       "via": "user",
       "collection": "grievance"
+    },
+    "hr_manager": {
+      "via": "users",
+      "model": "hr-manager"
+    },
+    "line_manager": {
+      "via": "users",
+      "model": "line-manager"
     }
   }
 }

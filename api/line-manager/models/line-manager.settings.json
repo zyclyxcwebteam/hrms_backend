@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "line_managers",
+  "info": {
+    "name": "Line Manager"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Manager_Name": {
+      "type": "string"
+    },
+    "Manager_Email": {
+      "type": "email"
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "line_manager"
+    }
+  }
+}

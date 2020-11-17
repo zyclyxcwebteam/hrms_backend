@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "policies",
+  "info": {
+    "name": "Policies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Policy_Name": {
+      "type": "string"
+    },
+    "Policy_Document": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Policy_Date": {
+      "type": "date"
+    }
+  }
+}

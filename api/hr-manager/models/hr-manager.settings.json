@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hr_managers",
+  "info": {
+    "name": "HR Manager"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Manager_Name": {
+      "type": "string"
+    },
+    "Manager_Email": {
+      "type": "email"
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "hr_manager"
+    }
+  }
+}

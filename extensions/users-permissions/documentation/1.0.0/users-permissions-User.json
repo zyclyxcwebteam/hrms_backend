@@ -1628,6 +1628,62 @@
               }
             }
           },
+          "hr_manager": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "Manager_Name": {
+                "type": "string"
+              },
+              "Manager_Email": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "line_manager": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "Manager_Name": {
+                "type": "string"
+              },
+              "Manager_Email": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -1794,6 +1850,12 @@
             "items": {
               "type": "string"
             }
+          },
+          "hr_manager": {
+            "type": "string"
+          },
+          "line_manager": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

@@ -691,6 +691,12 @@
                   "type": "string"
                 }
               },
+              "hr_manager": {
+                "type": "string"
+              },
+              "line_manager": {
+                "type": "string"
+              },
               "created_by": {
                 "type": "string"
               },
