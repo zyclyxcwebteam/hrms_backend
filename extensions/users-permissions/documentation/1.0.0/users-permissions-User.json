@@ -1619,6 +1619,12 @@
                 "user": {
                   "type": "string"
                 },
+                "hr_manager": {
+                  "type": "string"
+                },
+                "line_manager": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -1648,6 +1654,12 @@
                   "type": "string"
                 }
               },
+              "grievances": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "created_by": {
                 "type": "string"
               },
@@ -1671,6 +1683,12 @@
                 "type": "string"
               },
               "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "grievances": {
                 "type": "array",
                 "items": {
                   "type": "string"

@@ -48,6 +48,14 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "grievances"
+    },
+    "hr_manager": {
+      "model": "hr-manager",
+      "via": "grievances"
+    },
+    "line_manager": {
+      "model": "line-manager",
+      "via": "grievances"
     }
   }
 }

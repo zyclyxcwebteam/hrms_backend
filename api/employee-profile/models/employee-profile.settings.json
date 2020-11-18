@@ -57,7 +57,9 @@
         "AB_Positive",
         "AB_Negative",
         "O_Positive",
-        "O_Negative"
+        "O_Negative",
+        "A2B_Positive",
+        "A2B_Negative"
       ]
     },
     "Work_Phone": {

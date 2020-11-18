@@ -19,6 +19,10 @@
       "plugin": "users-permissions",
       "collection": "user",
       "via": "hr_manager"
+    },
+    "grievances": {
+      "via": "hr_manager",
+      "collection": "grievance"
     }
   }
 }

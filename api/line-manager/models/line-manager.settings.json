@@ -19,6 +19,10 @@
       "plugin": "users-permissions",
       "collection": "user",
       "via": "line_manager"
+    },
+    "grievances": {
+      "via": "line_manager",
+      "collection": "grievance"
     }
   }
 }

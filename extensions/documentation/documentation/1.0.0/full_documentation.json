@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/17/2020 10:56:47 AM"
+    "x-generation-date": "11/18/2020 11:25:24 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -12723,7 +12723,9 @@
               "AB_Positive",
               "AB_Negative",
               "O_Positive",
-              "O_Negative"
+              "O_Negative",
+              "A2B_Positive",
+              "A2B_Negative"
             ]
           },
           "Work_Phone": {
@@ -12977,7 +12979,9 @@
               "AB_Positive",
               "AB_Negative",
               "O_Positive",
-              "O_Negative"
+              "O_Negative",
+              "A2B_Positive",
+              "A2B_Negative"
             ]
           },
           "Work_Phone": {
@@ -13145,6 +13149,74 @@
               }
             }
           },
+          "hr_manager": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "Manager_Name": {
+                "type": "string"
+              },
+              "Manager_Email": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "grievances": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "line_manager": {
+            "required": [
+              "id"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "Manager_Name": {
+                "type": "string"
+              },
+              "Manager_Email": {
+                "type": "string"
+              },
+              "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "grievances": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -13273,6 +13345,12 @@
             ]
           },
           "user": {
+            "type": "string"
+          },
+          "hr_manager": {
+            "type": "string"
+          },
+          "line_manager": {
             "type": "string"
           },
           "created_by": {
@@ -13524,6 +13602,64 @@
               }
             }
           },
+          "grievances": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "Email": {
+                  "type": "string"
+                },
+                "Complaint_Date": {
+                  "type": "string"
+                },
+                "Event_Time_Date": {
+                  "type": "datetime"
+                },
+                "Place_Of_Event": {
+                  "type": "string"
+                },
+                "Witness": {
+                  "type": "string"
+                },
+                "Account_Of_Event": {
+                  "type": "string"
+                },
+                "Violations": {
+                  "type": "string"
+                },
+                "Proposed_Solution": {
+                  "type": "string"
+                },
+                "Status": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "string"
+                },
+                "hr_manager": {
+                  "type": "string"
+                },
+                "line_manager": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -13623,6 +13759,12 @@
             "type": "string"
           },
           "users": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "grievances": {
             "type": "array",
             "items": {
               "type": "string"
@@ -14671,6 +14813,64 @@
               }
             }
           },
+          "grievances": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "Employee_Name": {
+                  "type": "string"
+                },
+                "Email": {
+                  "type": "string"
+                },
+                "Complaint_Date": {
+                  "type": "string"
+                },
+                "Event_Time_Date": {
+                  "type": "datetime"
+                },
+                "Place_Of_Event": {
+                  "type": "string"
+                },
+                "Witness": {
+                  "type": "string"
+                },
+                "Account_Of_Event": {
+                  "type": "string"
+                },
+                "Violations": {
+                  "type": "string"
+                },
+                "Proposed_Solution": {
+                  "type": "string"
+                },
+                "Status": {
+                  "type": "string"
+                },
+                "user": {
+                  "type": "string"
+                },
+                "hr_manager": {
+                  "type": "string"
+                },
+                "line_manager": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
+            }
+          },
           "created_by": {
             "required": [
               "id",
@@ -14770,6 +14970,12 @@
             "type": "string"
           },
           "users": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "grievances": {
             "type": "array",
             "items": {
               "type": "string"
@@ -16298,6 +16504,12 @@
                 "user": {
                   "type": "string"
                 },
+                "hr_manager": {
+                  "type": "string"
+                },
+                "line_manager": {
+                  "type": "string"
+                },
                 "created_by": {
                   "type": "string"
                 },
@@ -16327,6 +16539,12 @@
                   "type": "string"
                 }
               },
+              "grievances": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
               "created_by": {
                 "type": "string"
               },
@@ -16350,6 +16568,12 @@
                 "type": "string"
               },
               "users": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "grievances": {
                 "type": "array",
                 "items": {
                   "type": "string"
