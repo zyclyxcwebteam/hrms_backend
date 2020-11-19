@@ -611,6 +611,18 @@
           "Published_at": {
             "type": "string"
           },
+          "Meta_Title": {
+            "type": "string"
+          },
+          "Meta_Description": {
+            "type": "string"
+          },
+          "Meta_Keywords": {
+            "type": "string"
+          },
+          "Thumbnail_Img_Link": {
+            "type": "string"
+          },
           "created_by": {
             "required": [
               "id",
@@ -710,6 +722,18 @@
             "type": "string"
           },
           "Published_at": {
+            "type": "string"
+          },
+          "Meta_Title": {
+            "type": "string"
+          },
+          "Meta_Description": {
+            "type": "string"
+          },
+          "Meta_Keywords": {
+            "type": "string"
+          },
+          "Thumbnail_Img_Link": {
             "type": "string"
           },
           "created_by": {

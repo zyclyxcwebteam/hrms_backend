@@ -28,6 +28,18 @@
     },
     "Published_at": {
       "type": "date"
+    },
+    "Meta_Title": {
+      "type": "string"
+    },
+    "Meta_Description": {
+      "type": "text"
+    },
+    "Meta_Keywords": {
+      "type": "text"
+    },
+    "Thumbnail_Img_Link": {
+      "type": "string"
     }
   }
 }
