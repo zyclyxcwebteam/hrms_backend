@@ -1,5 +1,4 @@
 "use strict";
-const axios = require("axios");
 /**
  * Read the documentation (https://strapi.io/documentation/v3.x/concepts/models.html#lifecycle-hooks)
  * to customize this model
@@ -22,10 +21,6 @@ module.exports = {
         .findOne({ id: userId });
       // Update Employee Name in table entry
       data.Employee_Name = user.username;
-      //   const response = await axios.get(filePath, {
-      //     responseType: "arraybuffer",
-      //   });
-      //const buffer = Buffer.from(response.data, "base64");
       await strapi.plugins["email"].services.email.send({
         to: `${user.email}`,
         from: "hr.operations@zyclyx.com",
@@ -43,6 +38,25 @@ module.exports = {
             
             <p>Thanks & Regards,</p>
             <p>HR Operations</p>`,
+      });
+
+      // send email to HR
+
+      await strapi.plugins["email"].services.email.send({
+        to: "hr.operations@zyclyx.com",
+        from: "hr.operations@zyclyx.com",
+        replyTo: "hr.operations@zyclyx.com",
+        subject: `Acknowledgment - ${data.Policy_Type} from ${user.username}`,
+        html: `
+            <p>Dear Team,</p>
+                            
+            <p>I have read and been informed about the content, requirements, and expectations of the ${data.Policy_Type} for employees at ZYCLYX.</p>
+            <p>I have received a copy of the policy and agree to abide by the policy guidelines as a condition of my employment at ZYCLYX.</p>
+                                   
+            <p>Thanks & Regards,</p>
+            <p>${user.username}</p>
+            <p>${user.email}</p>
+            `,
       });
     },
   },
