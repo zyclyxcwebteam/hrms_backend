@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/email-subscriptions",
+      "handler": "email-subscription.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/email-subscriptions/count",
+      "handler": "email-subscription.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/email-subscriptions/:id",
+      "handler": "email-subscription.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/email-subscriptions",
+      "handler": "email-subscription.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/email-subscriptions/:id",
+      "handler": "email-subscription.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/email-subscriptions/:id",
+      "handler": "email-subscription.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

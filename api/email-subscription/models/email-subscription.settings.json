@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_subscriptions",
+  "info": {
+    "name": "Email Subscription"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Subscriber_Email": {
+      "type": "email"
+    },
+    "Subscription_Date": {
+      "type": "date"
+    }
+  }
+}
