@@ -46,7 +46,8 @@
       "enum": [
         "zyclyx",
         "virtech",
-        "intellect"
+        "intellect",
+        "IVEOND"
       ]
     },
     "Position": {

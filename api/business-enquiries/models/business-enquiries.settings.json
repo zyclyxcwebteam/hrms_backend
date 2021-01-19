@@ -32,7 +32,8 @@
       "enum": [
         "ZYCLYX",
         "INTELLECT",
-        "VIRTECH"
+        "VIRTECH",
+        "IVEOND"
       ]
     },
     "Company": {
